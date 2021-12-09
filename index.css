@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 0, 50);
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .row .title-bar{
+    background-color: rgb(0, 2, 46);
+    margin: 0;
+    padding: 20px;
+}
+.container .row .title-bar ul li{
+    color: #ffff;
+}
+.container .row .col-20 .about-us{
+    color: white;
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    bottom: 250px;
+}
+.container .row .col-20 .about-us h1{
+    color: white;
+    text-align: center;
+}
+.container .row .col-20 .about-us .content{
+    text-align: center;
+    position: relative;
+    overflow-y: scroll;
+    height: 100px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
